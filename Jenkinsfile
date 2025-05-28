@@ -13,7 +13,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh 'java -cp out Main'
+                sh 'java -cp out HelloWorld'
             }
         }
     }
